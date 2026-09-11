@@ -15,7 +15,7 @@ public class Carta {
     private String cor;
     private double preco;
     private int ataque;
-    private int resistenca;
+    private int resistencia;
 
     public int getId() {
         return id;
@@ -65,11 +65,11 @@ public class Carta {
         this.ataque = ataque;
     }
 
-    public int getResistenca() {
-        return resistenca;
+    public int getResistencia() {
+        return resistencia;
     }
 
-    public void setResistenca(int resistenca) {
-        this.resistenca = resistenca;
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
     }
 }
