@@ -70,7 +70,7 @@ public class CartasDAO {
     }
     
     public void editar(Carta colecao) throws SQLException {
-        String sql = "UPDATE colecoes SET nome=? tipo=? cor=? preco=? ataque=? resistencia=? WHERE id=?)";
+        String sql = "UPDATE colecoes SET nome=?, tipo=?, cor=?, preco=?, ataque=?, resistencia=? WHERE id=?)";
         
         try(Connection conexao = Conexao.abrir()){
             PreparedStatement executor = conexao.prepareStatement(sql);
